@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usama2333/Notours-Project.git"
+  },
+  "author": "usama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usama2333/Notours-Project/issues"
+  },
+  "homepage": "https://github.com/usama2333/Notours-Project#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
