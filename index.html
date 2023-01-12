@@ -23,6 +23,41 @@
   </head>
   <body>
 
+    <!-- Navbar Section starts here -->
+
+    <div class="navigation">
+      
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <label for="navi-toggle" class="navigation__button" >
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+
+      <div class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> Natours</a></li>
+          <li class="navigation__item"><a Your href="#" class="navigation__link"><span>02</span>Your benifits</a></li>
+          <li class="navigation__item"><a Popular href="#" class="navigation__link"><span>03</span>Popular Tours</a></li>
+          <li class="navigation__item"><a Stories href="#" class="navigation__link"><span>04</span>Stories</a></li>
+          <li class="navigation__item"><a Stories href="#" class="navigation__link"><span>05</span>Book now</a></li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- Navbar section ends here -->
+
+
+
+    <!-- Header section starts here -->
+
     <header class="header">
       <div class="header__logo-box">
         <img src="./images/logo-white.png" alt="logo pic" class="header__logo">
@@ -41,6 +76,8 @@
 
 
     </header>
+
+    <!-- Header section ends here -->
 
  
     <main>
@@ -127,8 +164,9 @@
 
    </section>
 <!-- Feature Section ends here -->
+
 <section class="u-margin-bottom-big">
-    <div class="section-tours">
+    <div class="section-tours u-margin-bottom-big">
       <div class="u-text-center u-margin-bottom-big">
         <h1 class="heading-secondary">Most popular tours</h1>
       </div>
@@ -253,16 +291,187 @@
 
       </div>
 
+
     </div>
    
-    <div class="u-text-center u-margin-top-big">
+    
+    <div class="u-text-center u-margin-top-big  ">
       <a href="#" class="btn btn--green">Discover all tours</a>
 
     </div>
+    </section>
+
+    <!-- Tour Section ends here -->
+
+    <!-- Section stories -->
+
+    <section class="section-stories">
+
+      <div class="bg-video">
+        <video class="bg-video__content">
+          <source src="./images/video.mp4" type="video/mp4" autoplay muted loop>
+          <source src="./images/video.webm" type="video/webm">
+          Your browser is not supported  !
+        </video>
+
+      </div>
+
+      <div class="u-text-center u-margin-bottom-big">
+
+        <h1 class="heading-secondary"> We make people genuily happy</h1>
+      </div>
+
+      <div class="row">
+        <div class="story">
+          
+          <figure class="story__shape">
+            <img src="./images/nat-8.jpg" class="story__image" alt="Person on tour">
+            <figcaption class="story__caption">Marry smith</figcaption>
+          </figure>
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt rem quod velit. Dolore nam sit amet consectetur adipisicing elit. sit amet consectetur adipisicing elit.sit amet consectetur adipisicing elit.eius nesciunt. Veritatis, ipsum tempore.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="story">
+          
+          <figure class="story__shape">
+            <img src="./images/nat-9.jpg" class="story__image" alt="Person on tour">
+            <figcaption class="story__caption">Jack Willson</figcaption>
+          </figure>
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">Wow! my life is completely different now</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt rem quod velit. Dolore nam sit amet consectetur adipisicing elit. sit amet consectetur adipisicing elit.sit amet consectetur adipisicing elit.eius nesciunt. Veritatis, ipsum tempore.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="u-text-center u-margin-top-big ">
+        <a href="#" class="btn-text">Read all stories &rarr;</a>
+  
+      </div>
+
+
 
     </section>
+
+    <!-- Section stories end here -->
+
+    <!-- Book section start here -->
+
+    <section class="section-book">
+      <div class="row">
+        <div class="book">
+          <div class="book__form">
+
+            <form action="#" class="form">
+
+              <div class="u-margin-bottom-medium"> 
+                <h1 class="heading-secondary"> 
+                  Start booking  now</h1>
+              </div>
+
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Full name" id="name" required>
+                <label for="name" class="form__label">Full name</label>
+              </div>
+
+              <div class="form__group">
+                <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                <label for="email" class="form__label">Email Address</label>
+              </div>
+
+      <!-- Creating Radio buttons here -->
+              <div class="form-group">
+                 <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="small" name="size">
+                  <label for="small" class="form__radio-label">
+                    <span class="form__radio-button"></span>
+                    Small tour group
+                  </label>
+                 </div>
+              
+
+                <div class="form__radio-group">
+                 <input type="radio" class="form__radio-input" id="large" name="size">
+                 <label for="large" class="form__radio-label">
+                  <span class="form__radio-button"></span>
+                  large tour group
+                </label>
+                </div>
+
+              </div>
+
+              <div class="form__group u-margin-bottom-medium">
+                <button class="btn btn--green">Next step &rarr;</button>
+
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Book section ends here -->
+
    </main>
 
+   <!-- main section ends here -->
+
+   <!-- Footer section starts here -->
+
+   <footer class="footer">
+    <div class="footer__logo-box">
+      <img src="./images/logo-green-2x.png" alt="logo" class="footer__logo">
+
+    </div>
+    <div class="row">
+      <div class="col-1-of-2">
+        <div class="footer__navigation">
+          
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">company</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">contact us</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">carrers</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">privacy policy</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">terms</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="col-1-of-2">
+        <p class="footer__copy-right">
+          Built my <a href="#" class="footer__link">Jonas Schmedtman</a> for his online course 
+          <a href="" class="footer__link">Advanced css and scss</a>
+          . Copyright &copy; by jonas Schmedtman. You are 100% allowed to use this webpage for both personal 
+          and commercial use and but donot claim it as your personal design.
+          A credit to the original author , jonas Schmedtman, is of course highly appreciated. 
+
+        </p>
+
+      </div>
+
+    </div>
+
+   </footer>
+
+
+
+   <!-- Footer section ends here -->
     
 
 
