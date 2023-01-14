@@ -2,10 +2,23 @@
     background-color: $color-grey-dark-3;
     padding: 10rem 0;
     font-size: 1.4rem;
-
+    
+    @include respond(tab-port) {
+        padding: 6rem 0;
+        
+    }
+    @include respond(phone) {
+        padding: 3rem 0;
+        
+    }
+ 
     &__logo-box {
         text-align: center;
         margin-bottom: 8rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 6rem;
+        }
 
     }
 
@@ -20,6 +33,11 @@
         padding-top: 2rem;
         display: inline-block;
 
+        @include respond(tab-port) {
+            width: 100% !important;
+            text-align: center;
+        }
+
     }
 
     &__copy-right {
@@ -29,6 +47,11 @@
         color: $color-grey-light-1;
         width: 80%;
         float: right;
+
+        @include respond(tab-port) {
+            width: 100% !important;
+            float: none;
+        }
 
     }
 
